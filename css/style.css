@@ -3,15 +3,21 @@
   padding: 0;
 }
 
+html {
+  font-size: 20px;
+}
+
 h1 {
   text-align: center;
   margin-top: 40px;
   font-size: 70px;
+  color: rgb(255, 255, 255);
 }
 
 h3 {
   text-align: center;
   padding-top: 20px;
+  color: rgb(255, 255, 255);
 }
 
 .head {
@@ -20,4 +26,16 @@ h3 {
 
 p {
   text-align: center;
+  color: rgb(253, 254, 255);
+}
+
+.navbar {
+  max-width: 700px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-image: url(../images/nightsky.jpg);
+  background-size: cover;
 }

@@ -12,11 +12,41 @@
         Wanna Contact our HQ <br />
         Make an inquiry with your info here <br />&#8595;
       </h1>
-      <form action="index.html" method="get">
-        <label>
-          <input type="" />
-        </label>
-      </form>
+      <div class="container mt-5">
+        <h2 class="text-center text-white">Contact Us</h2>
+        <form action="index.html" method="get">
+          <div class="mb-3">
+            <label for="name" class="form-label text-white">Your Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label text-white">Your Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label text-white">Your Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="any message"
+            ></textarea>
+          </div>
     </main>
   </body>
 </html>

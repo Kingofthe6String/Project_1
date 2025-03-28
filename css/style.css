@@ -10,13 +10,17 @@ html {
 /*Home Page Styling*/
 
 .records {
+  font-family: DELIRIUM NCV;
   text-align: center;
+  margin-right: 60px;
   margin-top: 40px;
   font-size: 70px;
   color: rgb(255, 255, 255);
+  padding-bottom: 0px;
 }
 
 h3 {
+  font-family: Star Renegades;
   text-align: center;
   padding-top: 20px;
   color: rgb(255, 255, 255);
@@ -27,17 +31,19 @@ h3 {
 }
 
 #welcome-message {
+  font-family: Star Renegades;
   text-align: center;
   color: rgb(253, 254, 255);
 }
 
 .navbar {
+  font-family: Star Renegades;
   max-width: 700px;
   margin: 0 auto;
 }
 
 body {
-  background-image: url(../images/nightsky.jpg);
+  background-image: url(../images/NightSky3.jpg);
   background-size: cover;
 }
 
@@ -46,6 +52,7 @@ body {
 }
 
 .nav-link {
+  font-family: Star Renegades;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -54,4 +61,18 @@ body {
 
 .navbar-toggler-icon {
   filter: invert(1);
+}
+
+.container {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+#message {
+  margin-top: 70px;
+}
+
+#email {
+  margin-top: 50px;
 }

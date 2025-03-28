@@ -8,45 +8,79 @@
   </head>
   <body>
     <main>
+      <header>
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Landing Site</a
+              >
+              <a class="nav-link" aria-current="page" href="#">Explore</a>
+              <a class="nav-link" aria-current="page" href="./contact.html"
+                >Contact HQ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
       <h1 class="contacth1">
         Wanna Contact our HQ <br />
         Make an inquiry with your info here <br />&#8595;
       </h1>
-      <div class="container mt-5">
-        <h2 class="text-center text-white">Contact Us</h2>
+      <div class="container">
         <form action="index.html" method="get">
-          <div class="mb-3">
+          <div class="container">
             <label for="name" class="form-label text-white">Your Name</label>
             <input
               type="text"
-              class="form-control"
+              class="form"
               id="name"
               name="name"
               required
               placeholder="Enter your name"
             />
           </div>
-          <div class="mb-3">
+          <div class="container">
             <label for="email" class="form-label text-white">Your Email</label>
             <input
               type="email"
-              class="form-control"
+              class="form"
               id="email"
               name="email"
               required
               placeholder="Enter your email"
             />
           </div>
-          <div class="mb-3">
-            <label for="message" class="form-label text-white">Your Message</label>
+          <div class="container">
+            <label for="message" class="form-label text-white"
+              >Your Message</label
+            >
             <textarea
-              class="form-control"
+              class="form"
               id="message"
               name="message"
               rows="4"
               placeholder="any message"
             ></textarea>
           </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>

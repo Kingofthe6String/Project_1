@@ -37,6 +37,7 @@ h3 {
 }
 
 .navbar {
+  text-align: center;
   font-family: Star Renegades;
   max-width: 700px;
   margin: 0 auto;
@@ -63,6 +64,11 @@ body {
   filter: invert(1);
 }
 
+.contacth1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
 .container {
   text-align: center;
   color: rgb(255, 255, 255);
@@ -70,9 +76,34 @@ body {
 }
 
 #message {
-  margin-top: 70px;
+  margin-top: 5px;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+}
+#email {
+  padding: 10px;
 }
 
-#email {
-  margin-top: 50px;
+#name {
+  padding: 10px;
+}
+
+form {
+  max-width: 600px;
+  margin: 40px auto; /* Center form with spacing */
+  background-color: rgba(86, 4, 237, 0.437); /* Dark background for the form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(86, 4, 237, 0.647); /* Add a soft shadow around the form */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-label {
+  display: block; /* Ensures the label is on a new line */
+  font-weight: bold;
+  margin-top: 10px;
 }

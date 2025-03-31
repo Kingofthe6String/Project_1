@@ -131,3 +131,33 @@ form {
   font-weight: bold;
   margin-top: 10px;
 }
+
+/* Style for the Submit Button */
+.submit-btn {
+  background-color: #007bff; /* Blue color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for spacing */
+  font-size: 16px; /* Text size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.submit-btn:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+  transform: translateY(-2px); /* Slightly lift the button */
+}
+
+/* Active effect (when clicked) */
+.submit-btn:active {
+  background-color: #003f7f; /* Even darker blue when clicked */
+  transform: translateY(0); /* Button returns to original position */
+}
+
+/* Focus effect (when the button is focused) */
+.submit-btn:focus {
+  outline: none; /* Remove outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow effect */
+}

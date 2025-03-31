@@ -12,4 +12,9 @@ Alien Records online sales company
 
 1. A website that is capable of searching for records on a seperate page.
 2. The website should be able to navigate through each tab using a navbar.
-3.
+
+# Technologies Used
+
+HTML
+CSS
+Bootsrap

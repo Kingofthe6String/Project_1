@@ -58,6 +58,30 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.occupation {
+  color: rgb(255, 255, 255);
+}
+
+.testimonial {
+  color: rgb(255, 255, 255);
+}
+
+.d-block {
+  text-align: center;
+  margin: auto;
+}
+
+.reviews {
+  margin-right: 800px;
+  font-family: Star Renegades;
+  font-size: 15px;
+}
+
+.reviewers {
+  margin-right: 800px;
+  font-family: DELIRIUM NCV;
+}
+
 /*Contact Page Styling*/
 
 .navbar-toggler-icon {

@@ -158,6 +158,14 @@ form {
 
 /* Focus effect (when the button is focused) */
 .submit-btn:focus {
-  outline: none; /* Remove outline */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow effect */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
+/* Explore Page Styling*/
+
+.card {
+}
+
+.card-text {
+

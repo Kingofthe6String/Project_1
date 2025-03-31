@@ -164,8 +164,9 @@ form {
 
 /* Explore Page Styling*/
 
-.card {
+.card-text {
+  color: black;
 }
 
-.card-text {
-
+.card-title {
+}

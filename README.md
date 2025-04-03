@@ -4,8 +4,8 @@
 
 # Screenshots of Website
 
-![alt text](images/WebsitePic.png)
 ![alt text](images/WebsitePic1.png)
+![alt text](images/WebsitePic.png)
 ![alt text](images/WebsitePic2.png)
 ![alt text](images/WebsitePic3.png)
 
@@ -30,6 +30,11 @@
 **VS Code**
 
 # Improvements
+
+- functional searchbar for finding specific records
+- Add links to the bands _"Discogs"_ page on the cards to learn more about the band
+- Implement a working shopping cart, along with a checkout page for purchasing records
+- Become a user to earn points towards discounts or special Alien Records merchandise
 
 # Author
 

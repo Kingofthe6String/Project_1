@@ -4,10 +4,16 @@
 
 # Screenshots of Website
 
-![alt text](images/WebsitePic1.png)
-![alt text](images/WebsitePic.png)
-![alt text](images/WebsitePic2.png)
-![alt text](images/WebsitePic3.png)
+![text](images/WebsitePic1.png)
+![text](images/WebsitePic.png)
+![text](images/WebsitePic2.png)
+![text](images/WebsitePic3.png)
+
+# Wireframe
+
+![alt text](images/Wireframe2.jpg)
+![alt text](images/Wireframe1.jpg)
+![alt text](images/Wireframe.jpg)
 
 # User Strories
 

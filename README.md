@@ -2,6 +2,13 @@
 
 ### Alien Records, is an online record sales company that strives to promise nothing but delivering the biggest and best collection of "Golden Oldies". Our target demographic is anyone and everyone!
 
+# Screenshots of Website
+
+![alt text](images/WebsitePic.png)
+![alt text](images/WebsitePic1.png)
+![alt text](images/WebsitePic2.png)
+![alt text](images/WebsitePic3.png)
+
 # User Strories
 
 1. As a user I want to be abe to find a record, and purchase a record through the explore tab.
@@ -20,6 +27,7 @@
 **HTML** <br>
 **CSS** <br>
 **Bootsrap** <br>
+**VS Code**
 
 # Improvements
 

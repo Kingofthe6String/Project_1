@@ -98,12 +98,14 @@ body {
 .contacth1 {
   color: rgb(255, 255, 255);
   text-align: center;
+  font-family: Star Renegades;
 }
 
 .container {
   text-align: center;
   color: rgb(255, 255, 255);
   margin-top: 20px;
+  font-family: Star Renegades;
 }
 
 #message {
